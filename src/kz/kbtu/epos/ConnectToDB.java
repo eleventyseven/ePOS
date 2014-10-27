@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.sql.PreparedStatement;
+//import java.sql.PreparedStatement;
 
 public class ConnectToDB{
     public Double readDataBase(Long cid, int amount) throws Exception {
@@ -15,7 +15,7 @@ public class ConnectToDB{
         Connection connection = null;
         Statement statement = null;
         ResultSet resultSet = null;
-        PreparedStatement preparedStatement = null;
+        //PreparedStatement preparedStatement = null;
 
 
         try {
